@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## What is M3?
 
-You can use the [editor on GitHub](https://github.com/misaacson01/M3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The Modular Mouse Maze (**M3** for short) is a collection of hardware, code, and instructions/tutorials used for mouse behavioral research. M3 is designed around a small number of 3D printable parts and easily connectable, off-the-shelf IIC electronics (including Adafruit's [stemma QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) and Sparkfun's [Qwiic](https://www.sparkfun.com/qwiic) systems), offering an inexpensive, simple, and highly customizable approach to building a variety of behavioral assay apparatuses, with no cutting of materials or soldering required. Set up your own automated operant assays in less time, for less money!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## How to get started?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Want to build a mouse behavioral assay yourself? Simply scroll down the list below and pick the apparatus you'd like to set up. Following the link, you'll find:
+1. A shopping list, with links to purchase all required hardware online (NOT affiliate links, we don't profit off of anything here)
+2. A set of 3D print files (.stl files), which you can either download to print yourself or order online
+3. A set of Python/circuit Python code to download
+4. Step-by-step instructions for how to put it all together, including an estimated setup time (typically 1 - 2 hours)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/misaacson01/M3/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+More details coming soon...
