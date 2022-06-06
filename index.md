@@ -1,8 +1,7 @@
 ---
-menus:
-  header:
-    title: Home
-    weight: 1
+title: M3
+layout: home
+group: home
 ---
 
 ![test gif](/assets/test.gif)
