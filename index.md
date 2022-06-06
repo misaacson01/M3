@@ -1,3 +1,7 @@
+---
+layout: default 
+---
+
 ![test gif](/assets/test.gif)
 
 ---
