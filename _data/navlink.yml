@@ -2,6 +2,6 @@
   link: "/"
   group: home
 
-- name: team
-  link: "/team"
-  group: team
+- name: about
+  link: "/about"
+  group: about
