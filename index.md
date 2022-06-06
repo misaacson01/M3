@@ -1,6 +1,4 @@
-![test image](/assets/Fig3_V5.png)
-
-![test gif](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1527466619678-KT4TZ645YDUYSOA1EU6S/Stacktrack.gif)
+![test gif](/assets/test.gif)
 
 ---
 
