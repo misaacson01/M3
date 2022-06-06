@@ -1,6 +1,4 @@
 ---
-layout: default 
-title: Homepage 
 menus:
   header:
     title: Home
@@ -11,7 +9,7 @@ menus:
 
 ---
 
-Version 0.2
+Version 0.21
 
 ## What is M3?
 
