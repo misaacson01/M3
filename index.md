@@ -6,6 +6,7 @@ menus:
     title: Home
     weight: 1
 ---
+updated version
 
 ![test gif](/assets/test.gif)
 
