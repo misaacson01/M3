@@ -1,2 +1,8 @@
 theme: jekyll-theme-architect
 markdown: kramdown
+---
+title: Homepage
+menus:
+  header:
+    title: Home
+    weight: 1
