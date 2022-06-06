@@ -1,13 +1,4 @@
-name: "M3"
-description: "Welcome to the Modular Mouse Maze"
-
-url: "https://misaacson01.github.io/M3/"
-
-permalink: pretty
-markdown: kramdown
-kramdown:
-  parse_block_html: true
-  
 theme: jekyll-theme-architect
-
-
+title: M3
+description: "Welcome to the Modular Mouse Maze"
+baseurl: https://misaacson01.github.io/M3/
