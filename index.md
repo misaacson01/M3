@@ -1,3 +1,9 @@
+![test image](/assets/Fig3_V5.png)
+
+![test gif](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1527466619678-KT4TZ645YDUYSOA1EU6S/Stacktrack.gif)
+
+---
+
 ## What is M3?
 
 The Modular Mouse Maze (**M3** for short) is a collection of hardware, code, and instructions/tutorials used for mouse behavioral research. M3 is designed around a small number of 3D printable parts and easily connectable, off-the-shelf IIC electronics (including Adafruit's [stemma QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) and Sparkfun's [Qwiic](https://www.sparkfun.com/qwiic) systems), offering an inexpensive, simple, and highly customizable approach to building a variety of experimental apparatuses, with no cutting of materials or soldering required. Set up classical/operant assays and automated data collection in less time, for less money!
