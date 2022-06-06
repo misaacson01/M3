@@ -1,7 +1,0 @@
-- name: home
-  link: "/"
-  group: home
-
-- name: about
-  link: "/about"
-  group: about
