@@ -1,5 +1,10 @@
 ---
 layout: default 
+title: Homepage 
+menus:
+  header:
+    title: Home
+    weight: 1
 ---
 
 ![test gif](/assets/test.gif)
