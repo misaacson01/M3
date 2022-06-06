@@ -6,11 +6,12 @@ menus:
     title: Home
     weight: 1
 ---
-updated version
 
 ![test gif](/assets/test.gif)
 
 ---
+
+Version 0.2
 
 ## What is M3?
 
