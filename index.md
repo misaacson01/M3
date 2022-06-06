@@ -8,7 +8,7 @@ group: home
 
 ---
 
-Version 0.21
+Version
 
 ## What is M3?
 
