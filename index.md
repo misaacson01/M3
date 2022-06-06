@@ -1,14 +1,7 @@
----
-title: M3
-layout: home
-group: home
----
-
 ![test gif](/assets/test.gif)
 
 ---
 
-Version
 
 ## What is M3?
 
