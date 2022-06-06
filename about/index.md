@@ -4,4 +4,4 @@ layout: default
 group: about 
 ---
 
-# Contact the Fraser Lab
+# About the M3
