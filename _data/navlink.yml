@@ -1,0 +1,7 @@
+- name: home
+  link: "/"
+  group: home
+
+- name: team
+  link: "/team"
+  group: team
