@@ -1,3 +1,13 @@
+<html>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#contact">Mazes</a>
+  <a href="#about">Parts</a>
+</div>
+
+</html>
+
 ![test gif](/assets/test.gif)
 
 ---
