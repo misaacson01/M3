@@ -1,0 +1,97 @@
+---
+title: Linear Track
+subtitle: Designs and tutorials for Linear Track
+layout: page
+show_sidebar: false
+menubar: linear_menu
+
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  .left {
+    width: 75%;
+  }
+
+  .right {
+    width: 25%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+.img_r {
+  display: flex;
+  padding: 10px;
+  border-style: outset;
+}
+
+.img_c {
+  flex: 50%;
+  padding: 5px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="row">
+    <div class="column left" style="background-color:#FFFFFF;">
+      <p>Linear Track explanation. 
+      </p>
+      <hr>
+      <h2>Assembly Instructions</h2>
+      <p>
+        1. Print out the parts 
+        <br>2. 
+        <br>3. 
+      </p>
+      
+      <hr>
+      <h2>Linear Track Images</h2>
+      <div class="row">
+        <div class="img_r">
+          <div class="img_c"> 
+            <img src="/M3/img/ymaze_1.png" alt="Y-maze photo 1"  style="width: 100%" class="center">
+          </div>
+          <div class="img_c"> 
+            <img src="/M3/img/ymaze_2.png" alt="Y-maze photo 2" style="width: 100%; border" class="center">
+          </div>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+    <div class="column right" style="background-color:#FFFFFF;">
+      <h2>Parts</h2>
+      <hr>
+      <p> x <a href = "/M3/parts/floor/square/">square floors</a></p>
+      <p> x <a href = "/M3/parts/wall/wall/">wall</a></p>
+      <p> x <a href = "/M3/parts/junction/2-way_right/">2-way junctions (right angle)</a></p>
+      <p> x <a href = "/M3/parts/junction/2-way_stright/">2-way junctions (stright)</a></p>
+    </div>
+  </div>
+</body>
+</html>
