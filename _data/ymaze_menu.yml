@@ -1,0 +1,6 @@
+- label: Y maze
+  items:
+    - name: Y maze
+      link: /mazes/ymaze/ymaze/
+    - name: Y maze (with sensors)
+      link: /mazes/ymaze/ymaze_sensor/

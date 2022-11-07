@@ -1,0 +1,22 @@
+- name: Mazes
+  link: /mazes/
+  dropdown:
+    - name: Y-maze
+      link: /mazes/ymaze/
+    - name: OFT 
+      link: /mazes/oft/
+    - name: Linear Track 
+      link: /mazes/linear/
+- name: Parts
+  link: /#
+  dropdown:
+    - name: Wall Panel
+      link: /parts/wall/
+    - name: Floor Panel
+      link: /parts/floor/
+    - name: Junction
+      link: /parts/junction/  
+- name: Help
+  link: /help/
+
+

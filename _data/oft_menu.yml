@@ -1,0 +1,8 @@
+- label: Open Field
+  items:
+    - name: Open Field
+      link: /mazes/oft/oft/
+    - name: Open Field (with acloves)
+      link: /mazes/oft/oft_acloves/
+    - name: Open Field (with 4 reward locations)
+      link: /mazes/oft/oft_4_reward/
