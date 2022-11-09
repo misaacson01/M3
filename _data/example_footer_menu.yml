@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Mazes
+  link: /mazes/
+- name: Parts
+  link: /parts/
+- name: Help
+  link: /help/

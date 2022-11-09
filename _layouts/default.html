@@ -1,51 +1,59 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+{% if page.menubar or page.menubar_toc %}
+{% assign has_left_sidebar = true %}
+{% endif %}
 
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+{% if page.show_sidebar and has_left_sidebar  %}
+{% assign content_width = 'is-4' %}
+{% elsif page.show_sidebar or has_left_sidebar %}
+{% assign content_width = 'is-8' %}
+{% else %}
+{% assign content_width = 'is-12' %}
+{% endif %}
 
-{% seo %}
-
-    {% include head-custom.html %}
-  </head>
-
+<html>
+ dir="{{ site.direction | default: 'ltr' }}"
+ lang="{{ site.lang | default: 'en' }}"
+ {% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
+  {% include head.html %}
   <body>
-   <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
-          {% include nav.html %}
-        </header>
-    </div>
-    
-    <div id="content-wrapper">
-        <div class="inner clearfix">
-            {{ content }}
+    {% include header.html %}
+    {% unless page.hide_hero %}
+        {% include hero.html %}
+    {% endunless %}
+    {% include callouts.html %}
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                {% if page.menubar_toc %}
+                <div class="column is-4-desktop is-4-tablet">
+                    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+                    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
+                </div>
+                {% elsif page.menubar %}
+                <div class="column is-4-desktop is-4-tablet">
+                    {% include menubar.html %}
+                </div>
+                {% endif %}
+                <div class="column {{ content_width }}">
+                    {% include tabs.html %}
+                    {% include showcase.html %}
+                    {% include sponsors.html %}
+                    {% include gallery.html %}
+                    {{ content }}
+                </div>
+                {% if site.posts and page.show_sidebar %}
+                <div class="column is-4-desktop is-4-tablet">
+                    {% include latest-posts.html %}
+                </div>
+                {% endif %}
+            </div>
         </div>
-    </div>  
-     
-  
-  <!-- FOOTER -->
-    <div id="footer_wrap" class ="outer">
-        <div class="inner">
-        <p class="text-muted credit"> This website is open-source and available on <a href="https://github.com/misaacson01/M3/tree/gh-pages" target="_blank">GitHub</a>.</p>
-        </div>
-    </div>
-    
+    </section>
+    {% unless page.hide_footer %}
+        {% include footer.html %}
+    {% endunless %}
+    <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+    {%- include footer-scripts.html -%}
   </body>
 </html>
