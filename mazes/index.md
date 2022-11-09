@@ -1,6 +1,6 @@
 ---
 title: Mazes
-subtitle: Designs and tutorials for mazes
+subtitle: Designs and instructions for building custom mazes
 layout: page
 show_sidebar: false
 ---
