@@ -13,13 +13,8 @@ The Modular Mouse Maze (**M3** for short) is a collection of hardware, code, and
 ---
 
 ## How to get started?
-Want to build a mouse behavioral assay yourself? Simply scroll down the list below and pick the apparatus you'd like to set up. Following the link, you'll find:
-1. A shopping list, with links to purchase all required hardware online (NOT affiliate links, we don't profit off of anything here)
-2. A set of 3D print files (.stl files), which you can either download to print yourself or order online
-3. Some Python/CircuitPython code to download
-4. Step-by-step instructions for how to put it all together, including an estimated setup time (typically 1 - 2 hours)
-
----
-
-More details coming soon...
+Want to build a mouse behavioral assay yourself? Simply select a maze from the menubar above. Following the link, you'll find:
+1. A list of parts to purchase and 3D designs (.stl files) to print (either on your own printer or ordered online)
+2. Arduino code to download (if the maze is automated)
+3. Step-by-step instructions for how to put it all together
 
