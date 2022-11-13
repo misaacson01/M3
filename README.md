@@ -11,7 +11,7 @@ The Modular Mouse Maze (a.k.a. "M3") is an experimental system for building cust
 
 ## Automation with I2C electronics
 
-![I2C-based microelectronics (LED display, proximity sensor, servo) incorporated into 3D printed wall panel](https://github.com/misaacson01/M3/blob/main/img/M3intro2.png)
+![I2C-based microelectronics (LED display, proximity sensor, servo) incorporated into 3D printed wall panel](https://github.com/misaacson01/M3/blob/main/img/M3introI2C.png)
 
 Off-the-shelf electronics using the I2C communication protocol and 4-pin JST connectors can be used with the M3 to automate mouse location tracking, delivering cues and rewards, and running experimental protocols.
 
