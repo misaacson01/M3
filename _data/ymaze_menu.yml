@@ -1,6 +1,6 @@
 - label: Y maze
   items:
-    - name: Y maze
+    - name: Y maze (basic)
       link: /mazes/ymaze/ymaze/
-    - name: Y maze (with sensors)
+    - name: Y maze (automated)
       link: /mazes/ymaze/ymaze_sensor/
