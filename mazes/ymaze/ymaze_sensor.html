@@ -1,6 +1,6 @@
 ---
 title: Y-maze
-subtitle: basic
+subtitle: automated
 layout: page
 show_sidebar: false
 menubar: ymaze_menu
@@ -62,24 +62,26 @@ menubar: ymaze_menu
           <h2>Assembly Instructions</h2>
           <hr>
           <p>
-              1. Print out all parts listed in the sidebar.
-              <br> <a href="/M3/parts/floor/triangle_junctions/">(how to 3D print)</a>
+              1. Follow the instructions to create a <a href="/M3/parts/floor/triangle_junctions/">basic Y-maze</a>, excluding the 3 wall panels on the arm ends.
               <br>
-              <br>2. Place the triangle floor panel in the center, and attach 4 floor panels to each side of the triangle.
+              <br>2. Print the 3D parts, order the electronics, and download the code listed in the sidebar.
               <br>
-              <br>3. Attach straight junctions to the sides of each arm (but not the corner junctions yet).
+              <br>3. Slide the ending wall panels (with sensor port) into all 3 arm ends.
               <br>
-              <br>4. Slide wall panels into the attached junctions, creating the side walls of the Y-maze (but not the arm ends yet).
+              <br>3. Connect the 3 distance sensors into the multiplexer (on ports 0, 1, and 2), and conenct the multiplexer to the microcontroller.
               <br>
-              <br>5. Holding a corner junction in place on an arm end, slide the final side wall panel into place. Repeat for all side walls/arms.
+              <br>4. Insert the distance sensors into the sensor wall panels, with the sensor facing inside the maze.
               <br>
-              <br>6. Slide the ending wall panel into place for all 3 arms.
+              <br>5. Upload the automation code to the micocontroller.
+              <br> <a href="/M3/parts/floor/triangle_junctions/">(how to upload microcontroller code)</a>
               <br>
-              <br>The Y-maze is now complete!
+              <br>6. Plug in the microcontroller to a PC.
+              <br>
+              <br>The Y-maze is now automated!
           </p>
 
           <hr>
-          <h2>Assembled Y-maze</h2>
+          <h2>Assembled automated Y-maze</h2>
           <div class="row">
               <div class="img_r">
                   <div class="img_c">
@@ -94,13 +96,13 @@ menubar: ymaze_menu
 
       </div>
     <div class="column right" style="background-color:#FFFFFF;">
-      <h2>Parts</h2>
-      <hr>
-      <p>1 x <a href = "/M3/parts/floor/triangle_junctions/">triangle floor panel (with junctions)</a></p>
-      <p>12 x <a href = "/M3/parts/floor/square/">square floor panels</a></p>
-      <p>27 x <a href = "/M3/parts/wall/wall/">wall panels</a></p>
-      <p>6 x <a href = "/M3/parts/junction/2-way_right/">2-way junctions (right angle)</a></p>
-      <p>18 x <a href = "/M3/parts/junction/2-way_straight/">2-way junctions (straight)</a></p>
+        <h2>Parts</h2>
+        <hr>
+        <p>3 x <a href="/M3/parts/wall/wall/">wall (with sensor port)</a></p>
+        <p>3 x <a href="https://www.adafruit.com/product/3967">distance sensors</a></p>
+        <p>1 x <a href="https://www.adafruit.com/product/5597">microcontroller (Arduino-based)</a></p>
+        <p>4 x <a href="https://www.adafruit.com/product/5385">I2C cables</a></p>
+        <p>1 x USB cable (to connect the USB-C microcontroller to the PC)</p>
     </div>
   </div>
 </body>
