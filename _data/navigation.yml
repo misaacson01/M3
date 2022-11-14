@@ -3,16 +3,16 @@
   dropdown:
     - name: Y-maze
       link: /mazes/ymaze/
-    - name: OFT 
-      link: /mazes/oft/
-    - name: Linear Track 
+    - name: Open field 
+      link: /mazes/openfield/
+    - name: Linear track 
       link: /mazes/linear/
 - name: Parts
   link: /#
   dropdown:
-    - name: Wall Panel
+    - name: Wall panel
       link: /parts/wall/
-    - name: Floor Panel
+    - name: Floor panel
       link: /parts/floor/
     - name: Junction
       link: /parts/junction/  

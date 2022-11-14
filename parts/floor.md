@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Square Floor
+title: Square floor panel
 subtitle: 
 menubar: floor_menu
 show_sidebar: false

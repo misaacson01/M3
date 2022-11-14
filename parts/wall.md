@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wall
+title: Wall panel
 subtitle: 
 menubar: wall_menu
 show_sidebar: false
