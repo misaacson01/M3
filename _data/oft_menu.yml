@@ -1,6 +1,6 @@
 - label: Open Field
   items:
-    - name: Open Field (basic)
-      link: /mazes/oft/oft/
-    - name: Open Field (with acloves)
-      link: /mazes/oft/oft_acloves/
+    - name: Open field (basic)
+      link: /mazes/openfield/openfield/
+    - name: Open field (custom)
+      link: /mazes/openfield/openfield_custom/
