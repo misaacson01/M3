@@ -1,6 +1,6 @@
 - label: Linear Track
   items:
     - name: Linear track (basic)
-      link: /mazes/linear/linear/
+      link: /mazes/linear/linear_basic/
     - name: Linear track (with rewards)
       link: /mazes/linear/linear_rewards/

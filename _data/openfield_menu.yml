@@ -1,6 +1,6 @@
 - label: Open field
   items:
     - name: Open field (basic)
-      link: /mazes/openfield/openfield/
+      link: /mazes/openfield/openfield_basic/
     - name: Open field (custom)
       link: /mazes/openfield/openfield_custom/

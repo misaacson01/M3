@@ -1,0 +1,8 @@
+- label: Help
+  items:
+    - name: FAQs
+      link: /help/faqs/faqs/
+    - name: How to 3D print
+      link: /help/printing/printing/
+    - name: How to upload code
+      link: /help/coding/coding/

@@ -1,9 +1,10 @@
 ---
-title: Open field
-subtitle: custom
+title: Linear track
+subtitle: basic
 layout: page
 show_sidebar: false
-menubar: openfield_menu
+menubar: linear_menu
+
 ---
 <!DOCTYPE html>
 <html>
@@ -58,29 +59,34 @@ menubar: openfield_menu
 
     <div class="row">
         <div class="column left" style="background-color:#FFFFFF;">
-            <h2>Assembly Instructions</h2>
             <hr>
+            <h2>Assembly Instructions</h2>
             <p>
-                1. Follow the instructions to create a <a href="/M3/mazes/openfield/openfield_basic/">basic open field</a>, creating the starting size of your custom open field.
+                1. Pick a size for your linear track, with a length of *N* number of panels (each panel == 8 cm).
                 <br>
-                <br>2. To add alcoves, use right-angle junctions (with additional floor and wall panels).
+                <br>2. Print out all parts listed in the sidebar based on the size of your linear track.
+                <br> <a href="/M3/help/printing/">(how to 3D print)</a>
                 <br>
-                <br>3. To add separating walls, use 3-way junctions instead of inserts.
+                <br>3. Connect all floor panels of the track.
                 <br>
-                <br>4. To create a multiple connected open fields, use a 4-way junction.
+                <br>4. Attach straight junctions to the sides of the track (but not the corner junctions yet).
                 <br>
-                <br>Enjoy your custom open field!
+                <br>5. Slide wall panels in between the junctions on the sides of the track (but not the corner walls yet).
+                <br>
+                <br>6. Holding a right-angle junction in place on one corner of the track, slide the final corner wall panels into place. Repeat for all corners.
+                <br>
+                <br>The linear track is now complete!
             </p>
 
             <hr>
-            <h2>Assembled custom open field</h2>
+            <h2>Assembled linear track</h2>
             <div class="row">
                 <div class="img_r">
                     <div class="img_c">
-                        <img src="/M3/img/openfieldcustomfinal1.png" alt="open field (custom) photo 1" style="width: 100%" class="center">
+                        <img src="/M3/img/linearfinal1.png" alt="Assembled linear track photo 1" style="width: 100%" class="center">
                     </div>
                     <div class="img_c">
-                        <img src="/M3/img/openfieldcustomfinal2.png" alt="open field (custom) photo 2" style="width: 100%; border" class="center">
+                        <img src="/M3/img/linearfinal2.png" alt="Assembled linear track photo 2" style="width: 100%; border" class="center">
                     </div>
                 </div>
             </div>
@@ -90,15 +96,11 @@ menubar: openfield_menu
         <div class="column right" style="background-color:#FFFFFF;">
             <h2>Parts</h2>
             <hr>
-            <p>(variable) x <a href="/M3/parts/floor/square/">square floor panels</a></p>
-            <p>(variable) x <a href="/M3/parts/wall/wall/">wall panels</a></p>
-            <p>(variable) x <a href="/M3/parts/junction/2-way_right/">2-way junctions (right angle)</a></p>
-            <p>(variable) x <a href="/M3/parts/junction/2-way_straight/">2-way junctions (straight)</a></p>
-            <p>(variable) x <a href="/M3/parts/junction/3-way/">3-way junctions</a></p>
-            <p>(variable) x <a href="/M3/parts/junction/4-way/">4-way junctions</a></p>
-            <p>(variable) x <a href="/M3/parts/junction/4-way_insert/">4-way junctions (insert)</a></p>
+            <p>N x <a href="/M3/parts/floor/square/">square floor panels</a></p>
+            <p>(2N)+2 x <a href="/M3/parts/wall/wall/">wall panels</a></p>
+            <p>4 x <a href="/M3/parts/junction/2-way_right/">2-way junctions (right angle)</a></p>
+            <p>2(N-1) x <a href="/M3/parts/junction/2-way_straight/">2-way junctions (straight)</a></p>
         </div>
     </div>
 </body>
 </html>
-
