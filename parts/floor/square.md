@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Square floor panel
-subtitle: 
+title: Floor panel
+subtitle: square
 menubar: floor_menu
 show_sidebar: false
 toc: false
@@ -9,12 +9,12 @@ toc: false
 
 ## 3D design viewer
 <html>
-<script src="https://embed.github.com/view/3d/yusolpark/M3/master/parts/files/floor(80x80mm).stl"></script>
+<script src="https://embed.github.com/view/3d/misaacson01/M3/master/parts/files/Floor panel (square, 8 mm).stl"></script>
 </html>
 
 
 ## Downloads
-[Square floor stl File](/M3/parts/files/floor(80x80mm).stl)
-
-[Square floor STEP File](/M3/parts/files/floor(80x80mm).stl)
+<html>
+<a href="/M3/parts/files/Floor panel (square, 8 mm).stl">STL file</a>
+</html>
 
