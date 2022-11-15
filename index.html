@@ -1,0 +1,97 @@
+---
+layout: page
+title: M3
+subtitle: Modular Mouse Maze
+show_sidebar: false
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        .left {
+            width: 85%;
+        }
+
+        .right {
+            width: 15%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .img_r {
+            display: flex;
+            padding: 10px;
+            border-style: outset;
+        }
+
+        .img_c {
+            flex: 50%;
+            padding: 5px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div class="column left" style="background-color:#FFFFFF;">
+            <div class="row">
+                <div class="img_r">
+                    <div class="img_c">
+                        <img src="/M3/img/mazes/ymazefinal1.jpg" alt="Assembled Y-maze" style="width: 100%" class="center">
+                    </div>
+                    <div class="img_c">
+                        <img src="/M3/img/mazes/openfinal1.jpg" alt="Assembled open field" style="width: 100%; border" class="center">
+                    </div>
+                    <div class="img_c">
+                        <img src="/M3/img/mazes/linearfinal2.jpg" alt="Assembled linear track" style="width: 100%; border" class="center">
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <p>
+                The Modular Mouse Maze (**M3** for short) is a collection of hardware, code, and instructions/tutorials used for mouse behavioral research. M3 is designed around a small number of 3D printable parts and easily connectable, off-the-shelf IIC electronics (including Adafruit's [stemma QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) and Sparkfun's [Qwiic](https://www.sparkfun.com/qwiic) systems), offering an inexpensive, simple, and highly customizable approach to building a variety of experimental apparatuses and automated protocols, with no cutting of materials and (for most mazes) no soldering required!
+                <br>
+                <hr>
+                <h2>How to get started</h2>
+                Want to build a new mouse maze? Simply select a maze from the menubar above. Following the link, you'll find:
+                1. A list of parts to purchase and 3D designs to print (either on your own printer or ordered online)
+                2. Microcontroller code to download (for automated mazes)
+                3. Step-by-step instructions for how to put it all together
+
+                <br>
+                <ul>
+                    <li>
+                        This site is a work in progress. Find a bug, have a suggestion, or want to make a feature request? Submit an [issue](https://github.com/misaacson01/M3/issues) or start a [discussion](https://github.com/misaacson01/M3/discussions).
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
