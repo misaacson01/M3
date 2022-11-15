@@ -8,7 +8,7 @@
     - name: Linear track 
       link: /mazes/linear/
 - name: Parts
-  link: /#
+  link: /parts/
   dropdown:
     - name: Wall panel
       link: /parts/wall/
