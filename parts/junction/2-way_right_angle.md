@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  2-way (right angle)
-subtitle: 
+title: Junction
+subtitle: 2-way (right angle)
 menubar: junction_menu
 show_sidebar: False
 toc: false
@@ -9,11 +9,14 @@ toc: false
 
 ## 2-way (right angle) 3D design 
 <html>
-<script src="https://embed.github.com/view/3d/yusolpark/M3/master/parts/files/2-leaf_tight_junction(106mm,right-angle).stl"></script>
+<script src="https://embed.github.com/view/3d/misaacson01/M3/gh-pages/parts/files/Junction2wayRight146mm.stl"></script>
 </html>
 
-## Download
-[2-way (right angle) stl File](/M3/parts/files/2-leaf_tight_junction(106mm,right-angle).stl)
 
-[2-way (right angle) STEP File](/M3/parts/files/2-leaf_tight_junction(106mm,right-angle).stl)
+## Downloads
+<html>
+<a href="/M3/parts/files/Junction2wayRight146mm.stl">stl file</a>
+<br>
+<a href="/M3/parts/files/Junction2wayRight146mm.step">STEP file</a>
+</html>
 

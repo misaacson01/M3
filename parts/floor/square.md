@@ -17,6 +17,6 @@ toc: false
 <html>
 <a href="/M3/parts/files/FloorPanelSquare8mm.stl">stl file</a>
 <br>
-<a href="/M3/parts/files/Floor panel (square, 8 mm).step">STEP file</a>
+<a href="/M3/parts/files/FloorPanelSquare8mm.step">STEP file</a>
 </html>
 

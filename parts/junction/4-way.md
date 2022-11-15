@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 4-way
-subtitle: 
+title: Junction
+subtitle: 4-way
 menubar: junction_menu
 show_sidebar: false
 toc: false
@@ -9,10 +9,13 @@ toc: false
 
 ## 4-way 3D design 
 <html>
-<script src="https://embed.github.com/view/3d/yusolpark/M3/master/parts/files/2-leaf_tight_junction(106mm,straight).stl"></script>
+<script src="https://embed.github.com/view/3d/misaacson01/M3/gh-pages/parts/files/Junction4way146mm.stl"></script>
 </html>
 
-## Download
-[4-way stl File](/M3/parts/files/2-leaf_tight_junction(106mm,straight).stl)
 
-[4-way STEP File](/M3/parts/files/2-leaf_tight_junction(106mm,straight).stl)
+## Downloads
+<html>
+<a href="/M3/parts/files/Junction4way146mm.stl">stl file</a>
+<br>
+<a href="/M3/parts/files/Junction4way146mm.step">STEP file</a>
+</html>
