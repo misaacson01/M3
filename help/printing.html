@@ -58,9 +58,62 @@ menubar: help_menu
 
     <div class="row">
         <div class="column left" style="background-color:#FFFFFF;">
-            <h2>3D printing help page coming soon!</h2>
+            <h2>3D Printing Guidelines</h2>
             <hr>
+            The foundation of the M3 system is a small number 3D-printable parts. These parts have been custom designed, 
+            and therefore need to be custom printed. 3D printing services such as <a href="https://craftcloud3d.com/">Craftcloud</a>
+            can offer a simple way to order these custom parts. Alternatively, 
+            because M3 parts have been designed with inexpensive, consumer-grade 3D printers in mind, you can print every M3 part yourself!
+            See the sections below for more details and guidance on ordering or printing these custom parts.
+            <br>
+            Note: when you first begin to print M3 parts, we recommend starting with a small batch of each part type (walls, floors, and junctions) before printing a full set.
+            Different printers and print services introduce slight deviations in the dimensions of printed parts, so you'll want to verify that your parts fit together adequately
+            before committing to a large batch.
+            <br>
+            <h3>Ordering 3D Prints Online</h2>
+            <hr>
+            To order 3D prints from a printing service, you first need to download the .stl file(s) you wish to have printed. Next, identify a 3D printing 
+            service you want to use (e.g. <a href="https://craftcloud3d.com/">Craftcloud</a>) and upload the .stl file(s) to print. Typically, you will then 
+            be requested to enter a small number of print parameters to make sure the part is printed how you want it. At the bottom of this page is a list of recommended print settings,
+            some of which are more essential and others which are completely optional to the point that some services will not even ask for them. Feel free to deviate from
+            these recommendations if you know enough to know you want something different -- M3 part designed are robust to a wide variety of parameters.
+            <br>
 
+            <h3>Printing Parts Yourself</h2>
+            <hr>
+            If you already own a 3D printer, printing M3 parts yourself can be the fastest, easiest, and most economical option for building M3 mazes. If you don't yet own a printer but are 
+            interested in purchasing one, we recommend an FDM-type printer such as the [Prusa MK4S](https://www.prusa3d.com/product/original-prusa-mk4s-3d-printer-5/) or the 
+            [Anycubic Kobra 2](https://store.anycubic.com/products/kobra-2). FDM printers such as these can print large, strong parts and are relatively easy to use and maintain. 
+            <br>
+            FDM printers use spools of filament as the building material for 3D prints, and there are many different filament types to choose from. We recommend using PLA filament 
+            as it is inexpensive, strong, and easy to wipe down for sterilization purposes (e.g. with 70% ethanol). 
+            <br>
+            3D printers also require computer programs known as "slicers"; these programs convert 3D design files (e.g., .stl files) into specific instruction files for the 3D printer. 
+            There are many different slicer programs available, but it's always safe to follow your printer manufacturer's guidanance on which slicer program is best for that printer. 
+            After starting up a slicer program, you are often asked to input the model of printer you're using and the type of filament/material being used. After inputting these settings, 
+            simply load or drag-and-drop the .stl file(s) you would like to print into the slicer program. Next, set the parameters for how the part should be printed -- 
+            see the section at the bottom of the page for our recommendations, some of which may apply to your printer and some of which may not. 
+            Once these settings are finalized, "slice" the part and export the data in the format your printer uses. Load the sliced data 
+            file to your printer and start the print. FDM printer often take hours to print a handful of parts, so it may take a few days to over a week to print all the parts you need for 
+            M3 mazes. With this in mind, you might consider printing multiple parts at once, and even leaving the printer to run overnight.
+            <br>
+            Happy printing!
+            
+            <h3>Recommended Print Parameters</h2>
+            <hr>
+            <ol>
+                <li>File units: millimeters</li>
+                <li>Printing process type: FDM</li>
+                <li>Material: PLA</li>
+                <li>Infill: 20%</li>
+                <li>Support: none</li>
+                <li>Layer Height: 300 micrometers (or less)</li>
+                <li>Material: PLA</li>
+                <li>Finish: Standard/As printed/No finish</li>
+                <li>Color: white or light grey</li>
+                <li>Print orientation: default (walls/junctions printed vertically, floors printed flat)</li>
+                <li>Tolerance: 500 micrometers (or less)</li>
+            </ol>
         </div>
     </div>
 </body>
