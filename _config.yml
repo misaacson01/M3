@@ -1,54 +1,8 @@
 domain: misaacson01.github.io/M3   
 url: https://misaacson01.github.io/M3
 baseurl: /M3
-remote_theme: pages-themes/slate@v0.2.0
-
 title: M3 
 description: "Modular Mouse Maze"
-
-permalink: pretty
-
-paginate: 5
-paginate_path: "/blog/page:num"
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
-
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-livereload: true
-
-sass:
-  style: compressed
-  source_dir: _sass
-
-#google_analytics: UA-code-here
-
-
-markdown: kramdown
-highlighter: rouge
-
-fixed_navbar: top
-
-footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-slate
