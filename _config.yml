@@ -1,7 +1,7 @@
 domain: misaacson01.github.io/M3   
 url: https://misaacson01.github.io/M3
 baseurl: /M3
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 
 title: M3 
 description: "Modular Mouse Maze"
