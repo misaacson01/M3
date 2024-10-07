@@ -1,10 +1,10 @@
 domain: misaacson01.github.io/M3   
 url: https://misaacson01.github.io/M3
 baseurl: /M3
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 
 title: M3 
-description: "Welcome to the Modular Mouse Maze"
+description: "Modular Mouse Maze"
 
 permalink: pretty
 
