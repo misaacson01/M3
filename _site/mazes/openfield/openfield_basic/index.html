@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+ dir="ltr"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/M3/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/M3/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Open field | M3</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Open field" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to the Modular Mouse Maze" />
+<meta property="og:description" content="Welcome to the Modular Mouse Maze" />
+<link rel="canonical" href="http://localhost:4000/M3/mazes/openfield/openfield_basic/" />
+<meta property="og:url" content="http://localhost:4000/M3/mazes/openfield/openfield_basic/" />
+<meta property="og:site_name" content="M3" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Open field" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to the Modular Mouse Maze","headline":"Open field","url":"http://localhost:4000/M3/mazes/openfield/openfield_basic/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/M3/" class="navbar-item">
+                M3
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/M3/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/M3/mazes/" class="navbar-link is-active">Mazes</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/M3/mazes/ymaze/" class="navbar-item ">Y-maze</a>
+                            
+                            <a href="/M3/mazes/openfield/" class="navbar-item ">Open field</a>
+                            
+                            <a href="/M3/mazes/linear/" class="navbar-item ">Linear track</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/M3/parts/" class="navbar-link ">Parts</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/M3/parts/wall/" class="navbar-item ">Wall panel</a>
+                            
+                            <a href="/M3/parts/floor/" class="navbar-item ">Floor panel</a>
+                            
+                            <a href="/M3/parts/junction/" class="navbar-item ">Junction</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/M3/help/" class="navbar-item ">Help</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Open field</h1>
+            <p class="subtitle is-3">basic</p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    
+
+<aside class="menu">
+
+    <p class="menu-label">Open field</p>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/M3/mazes/openfield/openfield_basic/" class="is-active">Open field (basic)</a>
+            
+        </li>
+        
+        <li>
+            <a href="/M3/mazes/openfield/openfield_custom/" class="">Open field (custom)</a>
+            
+        </li>
+            
+    </ul>
+
+</aside>
+                </div>
+                
+                <div class="column is-8">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        .left {
+            width: 75%;
+        }
+
+        .right {
+            width: 25%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .img_r {
+            display: flex;
+            padding: 10px;
+            border-style: outset;
+        }
+
+        .img_c {
+            flex: 50%;
+            padding: 5px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div class="column left" style="background-color:#FFFFFF;">
+            <h2>Assembly Instructions</h2>
+            <hr>
+            <p>
+                1. Pick a size for your open field, with a side length of *N* number of panels (each panel == 8 cm).
+                <br>
+                <br>2. Print out all parts listed in the sidebar based on the size of your open field.
+                <br> <a href="/M3/help/printing/">(how to 3D print)</a>
+                <br>
+                <br>3. Connect all floor panels of your open field.
+                <br><img src="/M3/img/mazes/open1.jpg" alt="open field photo 1" style="width: 100%" class="center">
+                <br>
+                <br>4. Add inserts into the empty corner spaces of the central floor panels.
+                <br><img src="/M3/img/mazes/open2.jpg" alt="open field photo 2" style="width: 100%" class="center">
+                <br>
+                <br>5. Attach straight junctions to the sides of the open field (but not the corner junctions yet).
+                <br><img src="/M3/img/mazes/open3.jpg" alt="open field photo 3" style="width: 100%" class="center">
+                <br>
+                <br>6. Slide wall panels in between the junctions on the sides of the open field (but not the corner walls yet).
+                <br><img src="/M3/img/mazes/open4.jpg" alt="open field photo 4" style="width: 100%" class="center">
+                <br>
+                <br>7. Holding a right-angle junction in place on one corner of the open field, slide the final corner wall panels into place. Repeat for all corners.
+                <br>
+                <br>The open field is now complete!
+            </p>
+
+            <hr>
+            <h2>Assembled open field</h2>
+            <div class="row">
+                <div class="img_r">
+                    <div class="img_c">
+                        <img src="/M3/img/mazes/openfinal1.jpg" alt="Assembled open field photo 1" style="width: 100%" class="center">
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+        <div class="column right" style="background-color:#FFFFFF;">
+            <h2>Parts</h2>
+            <hr>
+            <p>N^2 x <a href="/M3/parts/floor/square/">square floor panels</a></p>
+            <p>4N x <a href="/M3/parts/wall/wall/">wall panels</a></p>
+            <p>4 x <a href="/M3/parts/junction/2-way_right_angle/">2-way junctions (right angle)</a></p>
+            <p>4(N-1) x <a href="/M3/parts/junction/2-way_straight/">2-way junctions (straight)</a></p>
+            <p>(N-1)^2 x <a href="/M3/parts/junction/4-way_insert/">4 junctions (insert)</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/M3/" class="link">Home</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/M3/mazes/" class="link">Mazes</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/M3/parts/" class="link">Parts</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/M3/help/" class="link">Help</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="text-muted credit"> This website is open-source and available on <a href="https://github.com/misaacson01/M3/tree/gh-pages" target="_blank">GitHub</a>.</p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/M3/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

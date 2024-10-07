@@ -1,12 +1,12 @@
 domain: misaacson01.github.io/M3   
 url: https://misaacson01.github.io/M3
 baseurl: /M3
-title: M3 
-description: "Modular Mouse Maze"
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-slate
+remote_theme: chrisrhymes/bulma-clean-theme
 
+title: M3 
+description: "Welcome to the Modular Mouse Maze"
+
+permalink: pretty
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -30,6 +30,10 @@ exclude:
   - vendor/ruby/
 
 livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
 
 #google_analytics: UA-code-here
 
